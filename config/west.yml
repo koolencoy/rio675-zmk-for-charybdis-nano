@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: inorichi
       url-base: https://github.com/inorichi
+    - name: vloth
+      url-base: https://github.com/vloth
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,9 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: inorichi
       revision: main
+    - name: charybdis-zmk-module
+      remote: vloth
+      revision: main
+      path: modules/charybdis
   self:
     path: config
