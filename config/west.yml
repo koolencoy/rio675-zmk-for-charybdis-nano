@@ -17,6 +17,6 @@ manifest:
     - name: charybdis-zmk-module
       remote: vloth
       revision: main
-      path: modules/charybdis
+      path: modules/charybdis-zmk-module
   self:
     path: config
